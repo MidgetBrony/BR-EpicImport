@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "tool",
+  "experimental": true,
+  "id": "br-epicimport",
+  "name": "BR-EpicImport",
+  "author": "MidgetBrony",
+  "description": "Experimental Epic Games library importer for BOXROOM. It may break if Epic changes its launcher services.",
+  "repository": "https://github.com/MidgetBrony/BR-EpicImport",
+  "requirements": {},
+  "dependencies": [
+    {
+      "manifest": "https://raw.githubusercontent.com/MidgetBrony/BR-FamilyOwned/master/manifest.json",
+      "minimumVersion": "2.2.0",
+      "required": true
+    }
+  ],
+  "release": {
+    "provider": "github",
+    "assetWindows": "BR-EpicImport-v*-win-x64.zip",
+    "assetLinux": "BR-EpicImport-v*-linux-x64.zip",
+    "checksumAsset": "SHA256SUMS.txt",
+    "entryPointWindows": "BR-EpicImport.exe",
+    "entryPointLinux": "BR-EpicImport"
+  }
+}
+
